@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Variants Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    
+<div id="variant1" class="variant">
+    <img src="image1.png" onclick="navigate('variant2')" />
+    <img src="image2.png" />
+    <img src="image3.png" />
+    <img src="image4.png" />
+    <img src="image5.png" />
+    <img src="image6.png" />
+</div>
+
+<div id="variant2" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2.png" onclick="navigate('variant3')"/>
+    <img src="image3.png" />
+    <img src="image4.png" />
+    <img src="image5.png" />
+    <img src="image6.png" />
+</div>
+
+<div id="variant3" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2-2.png" />
+    <img src="image3.png" onclick="navigate('variant4')"/>
+    <img src="image4.png" />
+    <img src="image5.png" />
+    <img src="image6.png" />
+</div>
+
+<div id="variant4" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2-2.png" />
+    <img src="image3-3.png" />
+    <img src="image4.png" onclick="navigate('variant5')"/>
+    <img src="image5.png" />
+    <img src="image6.png" />
+</div>
+
+<div id="variant5" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2-2.png" />
+    <img src="image3-3.png" />
+    <img src="image4-4.png" />
+    <img src="image5.png" onclick="navigate('variant6')"/>
+    <img src="image6.png" />
+</div>
+
+<div id="variant6" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2-2.png" />
+    <img src="image3-3.png" />
+    <img src="image4-4.png" />
+    <img src="image5-5.png" />
+    <img src="image6.png" onclick="navigate('variant7')"/>
+</div>
+
+<div id="variant7" class="variant">
+    <img src="image1-1.png" />
+    <img src="image2-2.png" />
+    <img src="image3-3.png" />
+    <img src="image4-4.png" />
+    <img src="image5-5.png" />
+    <img src="image6-6.png" />
+</div>
+
+<!-- Repeat for other variants (variant2, variant3, ..., variant7) -->
+
+<script src="script.js"></script>
+</body>
+</html>

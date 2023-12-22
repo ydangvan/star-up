@@ -1,0 +1,28 @@
+.variant {
+    text-align: center; /* Center the images */
+}
+
+.variant img {
+    width: 100px; /* Square images */
+    height: 100px;
+    margin: 10px; /* Spacing between images */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transform: scale(0.7); /* Scale down to 50% of the original size */
+}
+
+.variant {
+    display: flex; /* Use flexbox to align children */
+    justify-content: flex-start; /* Align children to the start of the container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    transform: scale(0.7); /* Scale down to 50% of the original size */
+    
+    
+  }
+  
+  .variant img {
+    margin: 10px; /* Set margin to 10px on all sides */
+  }
+
+  body {
+    background-color: #1B1E37;
+  }
